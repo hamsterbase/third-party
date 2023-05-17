@@ -13,6 +13,16 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "typesVersions": {
+    "*": {
+      "runes": [
+        "dist/runes/index.d.ts"
+      ],
+      "marker": [
+        "dist/marker/index.d.ts"
+      ]
+    }
+  },
   "exports": {
     "runes": {
       "types": "./dist/runes/index.d.ts",
