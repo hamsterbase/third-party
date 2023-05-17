@@ -3,7 +3,7 @@
   "repository": "git@github.com:hamsterbase/third-party.git",
   "author": "monster <monster@hamsterbase.com>",
   "license": "MIT",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "files": [
     "dist",
