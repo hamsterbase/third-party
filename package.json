@@ -2,5 +2,26 @@
   "name": "@hamsterbase/third-party",
   "repository": "git@github.com:hamsterbase/third-party.git",
   "author": "monster <monster@hamsterbase.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    "rules": {
+      "import": "./dist/rules.js"
+    },
+    "marker": {
+      "import": "./dist/marker.js"
+    }
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
