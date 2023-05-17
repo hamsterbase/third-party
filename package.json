@@ -20,6 +20,9 @@
       ],
       "marker": [
         "dist/marker/index.d.ts"
+      ],
+      "highlighter": [
+        "dist/highlighter/index.d.ts"
       ]
     }
   },
@@ -31,6 +34,10 @@
     "./marker": {
       "types": "./dist/marker/index.d.ts",
       "import": "./dist/marker/index.js"
+    },
+    "./highlighter": {
+      "types": "./dist/highlighter/index.d.ts",
+      "import": "./dist/highlighter/index.js"
     }
   },
   "scripts": {
