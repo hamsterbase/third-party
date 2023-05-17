@@ -14,7 +14,7 @@
     "access": "public"
   },
   "exports": {
-    "rules": {
+    "runes": {
       "types": "./dist/runes/index.d.ts",
       "import": "./dist/runes/index.js"
     },
