@@ -1,0 +1,6 @@
+{
+  "name": "@hamsterbase/third-party",
+  "repository": "git@github.com:hamsterbase/third-party.git",
+  "author": "monster <monster@hamsterbase.com>",
+  "license": "MIT"
+}
