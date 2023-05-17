@@ -15,10 +15,12 @@
   },
   "exports": {
     "rules": {
-      "import": "./dist/rules.js"
+      "types": "./dist/runes/index.d.ts",
+      "import": "./dist/runes/index.js"
     },
     "marker": {
-      "import": "./dist/marker.js"
+      "types": "./dist/marker/index.d.ts",
+      "import": "./dist/marker/index.js"
     }
   },
   "scripts": {
