@@ -24,11 +24,11 @@
     }
   },
   "exports": {
-    "runes": {
+    "./runes": {
       "types": "./dist/runes/index.d.ts",
       "import": "./dist/runes/index.js"
     },
-    "marker": {
+    "./marker": {
       "types": "./dist/marker/index.d.ts",
       "import": "./dist/marker/index.js"
     }
