@@ -9,6 +9,10 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "exports": {
     "rules": {
       "import": "./dist/rules.js"
