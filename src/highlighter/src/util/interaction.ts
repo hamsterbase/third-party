@@ -2,9 +2,9 @@
  * adapter for mobile and desktop events
  */
 
-import type { IInteraction } from '@hamsterbase-third-party-internal/highlighter/src/types/index.js';
-import { UserInputEvent } from '@hamsterbase-third-party-internal/highlighter/src/types/index.js';
-import detectMobile from '@hamsterbase-third-party-internal/highlighter/src/util/is.mobile.js';
+import type { IInteraction } from '../types/index.js';
+import { UserInputEvent } from '../types/index.js';
+import detectMobile from './is.mobile.js';
 
 export default (): IInteraction => {
   const isMobile = detectMobile(window.navigator.userAgent);
